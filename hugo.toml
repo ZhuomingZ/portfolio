@@ -1,0 +1,54 @@
+baseURL = "/"
+title = "My UX Portfolio"
+theme = "PaperMod"
+languageCode = "en-us"
+
+[params]
+  homeInfoParams = { Title = "Welcome to My UX Portfolio DEBUG", Content = "I am a UX designer passionate about creating user-friendly experiences." }
+  ShowBreadCrumbs = false
+  ShowReadingTime = false
+  disableSpecial1stPost = true
+  disableScrollToTop = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Hello, I'm [ZZM] 👋"
+    subtitle = "UX Designer | Researcher | Marathon Runner"
+    imageUrl = "/images/profile.jpg"  # Make sure this image exists in "static/images/"
+    imageWidth = 150
+    imageHeight = 150
+    imageTitle = "Profile Picture"
+    buttons = [
+      { name = "Portfolio", url = "/portfolio/" },
+      { name = "Marathon", url = "/marathon/" },
+      { name = "Contact", url = "/contact/" }
+    ]
+
+[menu]
+  [[menu.main]]
+    identifier = "main"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "marathon"
+    name = "Marathon"
+    url = "/marathon/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
