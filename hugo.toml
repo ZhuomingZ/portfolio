@@ -13,6 +13,7 @@ languageCode = "en-us"
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   ShowToc = true
+  customCSS = ["css/custom.css"]
 
   [params.profileMode]
     enabled = true
