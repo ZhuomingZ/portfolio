@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/work/</loc>
+    <loc>/portfolio/work/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/marathon/</loc>
+    <loc>/marathon/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/phd/</loc>
+    <loc>/portfolio/phd/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/</loc>
+    <loc>/portfolio/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/phd/project2/</loc>
+    <loc>/portfolio/phd/project2/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/phd/project3/</loc>
+    <loc>/portfolio/phd/project3/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/portfolio/phd/project1/</loc>
+    <loc>/portfolio/phd/project1/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2024-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

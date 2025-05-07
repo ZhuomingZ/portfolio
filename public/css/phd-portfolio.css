@@ -1,0 +1,547 @@
+html {
+  scroll-behavior: smooth;
+  caret-color: transparent;
+}
+
+.phd-portfolio {
+  position: relative;
+  
+}
+.main {
+  padding: 0;
+  width: 100%;
+
+}
+.portfolio-section h1{
+  text-align: center;
+  font-size: 500%;
+  color: #fff;
+  animation: pulsate 0.11s ease-in-out infinite alternate;    
+}
+@keyframes pulsate {
+  0% {
+    text-shadow:
+      0 0 4px #0ff,    /* Cyan */
+      0 0 10px #0ff,   /* Cyan */
+      0 0 18px #0ff,   /* Cyan */
+      0 0 38px #0af,   /* Blue-Green */
+      0 0 73px #0af,   /* Blue-Green */
+      0 0 80px #0af,   /* Blue-Green */
+      0 0 94px #0af,   /* Blue-Green */
+      0 0 140px #0af;  /* Blue-Green */
+  }
+  100% {
+    text-shadow:
+      0 0 4px #0ff,
+      0 0 11px #0ff,
+      0 0 19px #0ff,
+      0 0 40px #0af,
+      0 0 80px #0af,
+      0 0 90px #0af,
+      0 0 100px #0af,
+      0 0 150px #0af;
+  }
+}
+
+.portfolio-container{
+  position: relative;
+  margin: 0% auto;
+  border-radius :2vw;
+
+}
+
+.floating-nav {
+  position: fixed;   /* Position relative to portfolio-container */
+  left: 50%;          /* Adjust distance from the container */
+  top: 50%;
+  transform: translate(calc(-0.5*(var(--main-width)) - 100%), -50%);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1vw;
+  border-radius: 1vw 0vw 0vw 1vw;
+}
+
+.floating-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.floating-nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.portfolio-section{
+
+  background-color: red;
+  
+}
+
+#section1{
+  background-color:#020202;
+  color:white;
+  border-radius :2vw 2vw 0vw 0vw;
+  padding-top: 20vh;
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), 90%,rgba(0,0,0,0)), url("/images/portfolio/bg_sec1.jpg");
+  background-size:contain;  
+}
+#section1 h1{
+  color: white; 
+  text-align: center;
+  font-size: 700%;
+ 
+}
+#abstract{
+  margin-top: 20vh;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), 75%,rgba(0,0,0,0)), url("/images/portfolio/mediatedTouch.jpg");
+  background-size:cover;
+  background-position: center;
+
+}
+.sistine{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#1e1e1e;
+  background-size:cover;
+  background-position: center;
+  padding-bottom: 20vh;
+  padding-top: 10vh;
+
+}
+#solution-text{
+
+  margin: 5% 20% 0% 5%;
+  width: 100%;
+  color: white; 
+  text-align: left;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+#handFrame{
+  position: relative;
+  height: 450px;
+  border: 0.5rem outset white;
+  border-radius: 12px;
+  margin: 2% 20% 5% 5%;
+  outline-offset: 0.5rem;
+  background-image: linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0)), url("/images/portfolio/bg_sec1.jpg");
+  background-size:cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden; /* Ensures nothing goes out of the frame */
+}
+
+#realHand_left {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.realHand_right {
+  width: 45%;
+  object-fit: fill;
+  margin-top: 16%; /* Creates an empty distance at the top */
+  overflow: hidden; /* Ensures nothing goes out of the frame */
+
+}
+.virtualHand{
+  position: absolute;
+  right: 0; /* Aligns over realHand_right */
+  width: 45%; /* Same size as realHand_right */
+  margin-top: 10%; /* Creates an empty distance at the top */
+  height: auto;
+  overflow: hidden; /* Ensures nothing goes out of the frame */
+  object-fit: fill;
+  
+}
+
+.realHand_right.aos-animate {opacity: 0}
+
+#abstract p{
+  font-size: 250%;
+  color: white;
+  text-align: center;
+}
+
+.illustration{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#abstract{
+  height: 100%;
+}
+
+#communication_1{
+  max-width: 30%;
+  height: auto;
+  float: left;
+  margin: 1% 7% 1% 7%;  
+
+}
+
+#communication_2{
+  max-width: 30%;
+  height: auto;
+
+  margin: 1% 7% 1% 7%;
+}
+
+.icons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon{
+  max-width: 8%;
+  margin: 1%;
+  height: auto;
+}
+
+#icon_touch{
+margin-right: 5%;
+}
+#icon_see_1{
+  margin-left: 5%;
+}
+
+
+.intro-frame {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;  /* Adjust frame width */
+  height: auto; /* Adjust frame height */
+  margin: 5% 5% 1% 20%;
+}
+.title-card {
+  width: 35%;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.title-card .subtitle{
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.7);
+  
+}
+
+.intro-card {
+  width: 55%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+}
+
+
+
+.multipage-frame {
+  width: 75%;  /* Adjust frame width */
+  height: auto; /* Adjust frame height */
+  margin: 0% 5% 1% 20%;
+  aspect-ratio: 5/3;
+  position: relative;
+
+}
+
+
+.multipage-container {
+  width: 100%;  /* Adjust frame width */
+  height: auto; /* Adjust frame height */
+  aspect-ratio: 5/3;
+  border: 1px solid white; /* Optional frame */
+  display: block;  
+  overflow: hidden;
+
+}
+
+.multipage {
+  height: 100%;
+  width: 300%; /* 3 slides → 3x width */
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s ease-in-out;
+  
+}
+.slide{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.synesthesia-title{
+  color: rgba(2, 2, 2, 0.8);
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 0%;
+  
+}
+.three-illustration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 5% 2% 5%;
+    
+}
+.three-illustration #synesthesia{
+ height: 50%;
+margin-top: 5%;
+}
+.synesthesia-illustration {
+  width: 100%;
+  margin: 1%;
+}
+.synesthesia-illustration img{
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin: 1%;
+  object-fit: cover;
+
+}
+.synesthesia-illustration p{
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#synesthesia-colorful img{
+  object-fit: contain;
+}
+.rubber-hand{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: cover;
+}
+
+
+/* Navigation Dots */
+.navigation-dots {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.navigation-dot {
+  height: 6px;
+  width: 60px;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.4);;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.navigation-dot.active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+.wipe-in {
+
+  height: auto;
+  clip-path: inset(0 100% 0 0); /* Initially hidden */
+  transition: clip-path 1.5s ease-out;
+}
+
+.wipe-in[data-aos="wipe-in"].aos-animate {
+  clip-path: inset(0 0 0 0); /* Reveal the image */
+}
+
+.hover-pointer:hover{
+  cursor:pointer;
+  }
+
+
+
+/* =================================================== Section 2 =================================================== */
+
+.section2{
+  background-color: rgba(90,90,90,1);
+  caret-color: transparent;
+}
+.title-section{
+  display: flex;
+  justify-content: center;
+  color:white;
+  padding-top: 20vh;
+  background-image: linear-gradient(180deg, #1e1e1e, 30%,rgba(0,0,0,0.5),70%,rgba(90,90,90,1)), url("/images/portfolio/Psychology-of-Color_Blog.jpg");
+  background-size:cover;  
+  padding: 15% 5%;
+
+}
+.title-section2{
+  width: fit-content;
+  font-size: 6rem;
+  color: white; 
+  -webkit-text-stroke: 2px white;
+
+}
+
+.rainbow-text {
+  font-weight: bold;
+  background: linear-gradient(90deg, 
+  rgba(255, 0, 0, 0.8),  /* Red - 50% Transparent */
+  rgba(255, 165, 0, 0.8), /* Orange */
+  rgba(255, 255, 0, 0.8), /* Yellow */
+  rgba(0, 128, 0, 0.8),  /* Green */
+  rgba(75, 0, 130, 0.8), /* Indigo */
+  rgba(238, 130, 238, 0.8), /* Violet */
+  rgba(255, 0, 0, 0.8) /* Red again for smooth loop */
+  );
+  background-size: 300% 100%; /* Make the gradient much wider */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  animation: rainbowAnimation 6s linear infinite;
+}
+
+@keyframes rainbowAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.visualTouch-concept{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.emotion-wheel{
+  position: relative;
+  left: 53.5%;
+  width: 43%;
+  aspect-ratio: 1/1;
+  animation: spin 25s linear infinite;  /* Infinite rotation */
+  z-index: 50;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.emotion-wheel:hover {
+  animation-play-state: paused; /* Pause rotation on hover */
+}
+
+.visualTouch-idea{
+  position: relative;
+  left: 5%;
+  transform: translateY(-96%); /* 让右侧 div 向左移动 25%，实现重叠 */
+  margin: 0;
+  width: 70%;
+  z-index: 100;
+
+}
+#multipage-container-vt{
+  background-color: black;
+  opacity: 90%;
+}
+
+.visualTouch-idea-dots{
+
+}
+
+/* Outer container */
+.slideshow-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Left Side Titles */
+.vt-motivation-slide-titles{
+  font-size: 1.5rem;
+  color: grey; 
+  width: 18%;
+    
+}
+
+.slide-titles-vt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: end;
+
+}
+
+.title-vt {
+  padding-bottom: 10%;
+  padding-left: 10%;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.title-vt:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+/* Slideshow Frame */
+.slide-frame-vt {
+  width: 75%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 3px solid white;
+  position: relative;
+}
+
+/* Slide Container (for vertical scrolling) */
+.slides-vt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400%;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Individual Slides */
+.slide-vt {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background: lightblue;
+}
+
+.vt-motivation-section{
+
+}
+
+
+
+
+.phd-section {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+
+
+.phd-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

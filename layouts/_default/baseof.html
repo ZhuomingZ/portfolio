@@ -8,8 +8,15 @@
 <head>
     
     {{- partial "head.html" . }}
-    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
-    <script src="{{ "js/custom.js" | relURL }}"></script>
+
+    <link rel="stylesheet" href="/css/aos.css">
+    <script src="/js/aos.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        AOS.init();
+    });
+    </script>
+    
 </head>
 
 <body class="

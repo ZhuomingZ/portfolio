@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PhD Research on My UX Portfolio</title>
-    <link>//localhost:1313/portfolio/phd/</link>
+    <link>/portfolio/phd/</link>
     <description>Recent content in PhD Research on My UX Portfolio</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/portfolio/phd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/portfolio/phd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>User-Centered AI Design</title>
-      <link>//localhost:1313/portfolio/phd/project2/</link>
+      <link>/portfolio/phd/project2/</link>
       <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/portfolio/phd/project2/</guid>
+      <guid>/portfolio/phd/project2/</guid>
       <description>&lt;p&gt;This project explores how AI interfaces can be designed to improve user experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>User-Centered AI Design</title>
-      <link>//localhost:1313/portfolio/phd/project3/</link>
+      <link>/portfolio/phd/project3/</link>
       <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/portfolio/phd/project3/</guid>
+      <guid>/portfolio/phd/project3/</guid>
       <description>&lt;p&gt;This project explores how AI interfaces can be designed to improve user experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>User-Centered AI Design 1</title>
-      <link>//localhost:1313/portfolio/phd/project1/</link>
+      <link>/portfolio/phd/project1/</link>
       <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/portfolio/phd/project1/</guid>
+      <guid>/portfolio/phd/project1/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>
