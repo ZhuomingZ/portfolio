@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/contact/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/portfolio/work/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/marathon/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/portfolio/phd/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/portfolio/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/portfolio/phd/project2/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/portfolio/phd/project3/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/portfolio/phd/project1/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url>
+</urlset>
